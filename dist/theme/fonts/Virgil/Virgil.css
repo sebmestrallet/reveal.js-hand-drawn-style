@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Virgil';
+    src: url('./Virgil.woff2');
+    src: url('./Virgil.woff2') format('woff'),
+         url('./Virgil.ttf') format('truetype'); /* using `woff2_decompress Virgil.woff2` */
+    font-weight: normal;
+    font-style: normal;
+}
+

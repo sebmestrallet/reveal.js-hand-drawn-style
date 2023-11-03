@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js-hand-drawn-style</title>
+
+		<meta name="description" content="Hand-drawn-themed reveal.js, using the Virgil font and Rough Notation">
+		<meta name="author" content="Sébastien Mestrallet">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/hand-drawn.css" id="theme">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+
+				<section>
+					<h2>Hand-drawn style</h2>
+					<p>Use the <a href="https://virgil.excalidraw.com/">Virgil</a> font as default</p>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+				plugins: [ RevealZoom, RevealSearch ]
+			});
+		</script>
+
+	</body>
+</html>
